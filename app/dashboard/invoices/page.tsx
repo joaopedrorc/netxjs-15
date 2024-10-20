@@ -1,3 +1,8 @@
 export default function Page() {
-  return <p>Invoices Page</p>;
+  return (
+    <div>
+      <p>Invoices Page</p>
+
+      <button className='bg-green-800'>Invoice</button>
+    </div>);
 }
